@@ -73,6 +73,7 @@ var GridHeatMapModel = markmodel.MarkModel.extend({
             var col_num = index % num_cols;
 
             return {
+                text : data,
                 row_num : row_num,
                 row : that.rows[row_num],
                 column : that.columns[col_num],
